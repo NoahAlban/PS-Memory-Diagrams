@@ -1,10 +1,17 @@
 //code for Problem Set about memory management
 #include<iostream>
 using namespace std;
-int main(){
-    std::cout << "Hello World" << std::endl;
-    cout << "ha" << endl;
-    int p;
-    int x[3];
-    return 0;
+
+int add(int x, int y)
+{
+	return x + y;
+	/*Draw memory diagram at this point*/
 }
+
+int main()
+{
+	int x = 11;
+	cout << add(x, 3) << endl;
+	return 0;
+}
+
